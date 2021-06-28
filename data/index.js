@@ -464,9 +464,9 @@ export const ServiceHomeThreeData = {
 
 export const ServicePostTwoData = {
     sectionContent: {
-        title: 'We design digital products that \n help grow businesses.',
+        title: 'We provide High Quality Mushrooms',
         subTitle: 'Services we are offering',
-        text: 'We are committed to providing our customers with exceptional service \n while offering our employees the best training.',
+        text: 'We are committed to providing our customers with exceptional service.',
     },
     posts: [
         {
@@ -482,16 +482,6 @@ export const ServicePostTwoData = {
         {
             title: 'Digital Marketing',
             iconName: 'mei-development-1',
-            url: '/service-details',
-        },
-        {
-            title: 'SEo & Content Writing',
-            iconName: 'mei-development',
-            url: '/service-details',
-        },
-        {
-            title: 'App Development',
-            iconName: 'mei-app-development',
             url: '/service-details',
         },
     ],
@@ -605,11 +595,9 @@ export const AboutOneData = {
     },
 };
 
-import team01 from '@/images/team/1.jpg';
-import team02 from '@/images/team/2.jpg';
-import team03 from '@/images/team/3.jpg';
-import team04 from '@/images/team/4.jpg';
-import team05 from '@/images/team/5.jpg';
+import team01 from '@/images/team/ac.jpg';
+import team02 from '@/images/team/moeed.jpg';
+import team03 from '@/images/team/rafay.jpg';
 
 export const TeamOneData = {
     sectionContent: {
@@ -619,9 +607,9 @@ export const TeamOneData = {
     },
     posts: [
         {
-            image: team01,
-            name: 'Herman Fisher',
-            designation: 'General Manager',
+            image: team03,
+            name: 'M Rafay',
+            designation: 'Production and Finance Lead',
             url: '#',
             socials: [
                 {
@@ -638,10 +626,11 @@ export const TeamOneData = {
                 },
             ],
         },
+        ,
         {
             image: team02,
-            name: 'Charlie Kennedy',
-            designation: 'Brand Designer',
+            name: 'Abdul Moeed',
+            designation: 'Marketing and Financial Lead',
             url: '',
             socials: [
                 {
@@ -659,49 +648,9 @@ export const TeamOneData = {
             ],
         },
         {
-            image: team03,
-            name: 'Helena Adkins',
-            designation: 'Seinor Designer',
-            url: '#',
-            socials: [
-                {
-                    name: 'Facebook',
-                    url: '#',
-                },
-                {
-                    name: 'Twitter',
-                    url: '#',
-                },
-                {
-                    name: 'Linkedin',
-                    url: '#',
-                },
-            ],
-        },
-        {
-            image: team04,
-            name: 'Virginia Farmer',
-            designation: 'Marketing Manager',
-            url: '#',
-            socials: [
-                {
-                    name: 'Facebook',
-                    url: '#',
-                },
-                {
-                    name: 'Twitter',
-                    url: '#',
-                },
-                {
-                    name: 'Linkedin',
-                    url: '#',
-                },
-            ],
-        },
-        {
-            image: team05,
-            name: 'Philip Hansen',
-            designation: 'Co Founder',
+            image: team01,
+            name: 'M Abdullah Ch',
+            designation: 'Technical and Marketing Lead',
             url: '#',
             socials: [
                 {
@@ -950,8 +899,8 @@ export const VideoTwoData = {
     },
 };
 
-import aboutTwo01 from '@/images/home_1/2.jpg';
-import aboutTwo02 from '@/images/home_1/1.jpg';
+// import aboutTwo01 from '@/images/home_1/1.jpg';
+import aboutTwo02 from '@/images/home_1/mushroom1.jpg';
 
 export const AboutTwoData = {
     sectionContent: {
@@ -963,7 +912,7 @@ export const AboutTwoData = {
         label: 'Learn More',
         url: '#',
     },
-    gallery: [aboutTwo01, aboutTwo02],
+    gallery: [aboutTwo02],
 };
 
 import featureTwo01 from '@/images/home_1/5.jpg';
