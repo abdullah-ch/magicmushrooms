@@ -1,1 +1,1 @@
-## Meipaly NextJS
+## NextJS
