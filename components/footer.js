@@ -12,13 +12,7 @@ const Footer = () => {
                             <a href='/'>
                                 <img src={light} alt='' />
                             </a>
-                            <p>
-                                Welcome to our web design agency. Lorem ipsum is
-                                simply free text dolor sit amet consectetur
-                                adipisicing elit. Tempore corrupti temporibus
-                                fuga earum asperiores, alias excepturi sit
-                                mpedit fugit laudantium.
-                            </p>
+                            <p>Welcome to Magic and some shrooms.</p>
                         </aside>
                     </div>
                     <div className='col-lg-4 col-sm-4 col-md-4'>
