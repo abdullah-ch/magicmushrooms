@@ -1,5 +1,5 @@
 import logoLight from '@/images/logo.png';
-import logoDark from '@/images/logo2.png';
+import logoDark from '@/images/logo.png';
 
 export const LogoImage = {
     light: logoLight,
@@ -29,20 +29,20 @@ export const NavLinks = [
         name: 'About',
         url: '/about',
     },
-    {
-        name: 'Services',
-        url: '/service',
-        // subItems: [
-        //     {
-        //         name: 'Services',
-        //         url: '/service',
-        //     },
-        //     {
-        //         name: 'Service Details',
-        //         url: '/service-details',
-        //     },
-        // ],
-    },
+    // {
+    //     name: 'Services',
+    //     url: '/service',
+    //     subItems: [
+    //         {
+    //             name: 'Services',
+    //             url: '/service',
+    //         },
+    //         {
+    //             name: 'Service Details',
+    //             url: '/service-details',
+    //         },
+    //     ],
+    // },
     // {
     //     name: 'Portfolio',
     //     url: '/portfolio',
@@ -57,28 +57,28 @@ export const NavLinks = [
     //         },
     //     ],
     // },
-    {
-        name: 'Blog',
-        url: '/blog',
-        // subItems: [
-        //     {
-        //         name: 'Blog 01',
-        //         url: '/blog',
-        //     },
-        //     {
-        //         name: 'Blog 02',
-        //         url: '/blog-2',
-        //     },
-        //     {
-        //         name: 'Blog 03',
-        //         url: '/blog-3',
-        //     },
-        //     {
-        //         name: 'Blog Details',
-        //         url: '/blog-single',
-        //     },
-        // ],
-    },
+    // {
+    //     name: 'Blog',
+    //     url: '/blog',
+    //     subItems: [
+    //         {
+    //             name: 'Blog 01',
+    //             url: '/blog',
+    //         },
+    //         {
+    //             name: 'Blog 02',
+    //             url: '/blog-2',
+    //         },
+    //         {
+    //             name: 'Blog 03',
+    //             url: '/blog-3',
+    //         },
+    //         {
+    //             name: 'Blog Details',
+    //             url: '/blog-single',
+    //         },
+    //     ],
+    // },
     {
         name: 'Contact',
         url: '/contact',
@@ -340,7 +340,7 @@ export const BlogComments = [
     },
 ];
 
-import portfolio01 from '@/images/portfolio/1.jpg';
+import portfolio01 from '@/images/portfolio/1.jpg'; // straw mushroom
 import portfolio02 from '@/images/portfolio/2.jpg';
 import portfolio03 from '@/images/portfolio/3.jpg';
 import portfolio04 from '@/images/portfolio/4.jpg';
@@ -349,38 +349,38 @@ import portfolio06 from '@/images/portfolio/6.jpg';
 
 export const PortfolioData = [
     {
-        title: 'Design Styles',
-        categories: ['all', 'graphic'],
-        image: portfolio01,
-        url: '/portfolio-details',
-    },
-    {
-        title: 'Design Styles',
-        categories: ['all', 'graphic'],
-        image: portfolio02,
-        url: '/portfolio-details',
-    },
-    {
-        title: 'Design Styles',
-        categories: ['all', 'graphic'],
+        title: 'Button Mushroom',
+        categories: [],
         image: portfolio03,
         url: '/portfolio-details',
     },
     {
-        title: 'Design Styles',
-        categories: ['all', 'graphic'],
+        title: 'Oyster Mushroom',
+        categories: [],
+        image: portfolio02,
+        url: '/portfolio-details',
+    },
+    {
+        title: 'Straw Mushroom',
+        categories: [],
+        image: portfolio01,
+        url: '/portfolio-details',
+    },
+    {
+        title: 'Mushroom Bag',
+        categories: [],
         image: portfolio04,
         url: '/portfolio-details',
     },
     {
-        title: 'Design Styles',
-        categories: ['all', 'graphic'],
+        title: 'Button Mushroom',
+        categories: [],
         image: portfolio05,
         url: '/portfolio-details',
     },
     {
-        title: 'Design Styles',
-        categories: ['all', 'graphic'],
+        title: 'Oyster Mushroom',
+        categories: [],
         image: portfolio06,
         url: '/portfolio-details',
     },
@@ -580,8 +580,8 @@ export const ClientCarouselData = {
     ],
 };
 
-import aboutOne01 from '@/images/about/1.jpg';
-import aboutOne02 from '@/images/about/2.jpg';
+import aboutOne01 from '@/images/about/abou1.jpg';
+import aboutOne02 from '@/images/about/about2.jpg';
 
 export const AboutOneData = {
     sectionContent: {
@@ -670,7 +670,7 @@ export const TeamOneData = {
     ],
 };
 
-import video01 from '@/images/about/3.jpg';
+import video01 from '@/images/home_1/video2.png';
 
 export const VideoOneData = {
     sectionContent: {
@@ -680,7 +680,7 @@ export const VideoOneData = {
     },
     video: {
         image: video01,
-        ID: 'y2Eqx6ys1hQ',
+        ID: 'IgYQMzGRMcI',
         title: 'Watch Video',
     },
 };
@@ -692,9 +692,9 @@ export const SubscribeFormData = {
     },
 };
 
-import testimonial01 from '@/images/home_1/t1.jpg';
-import testimonial02 from '@/images/home_1/t2.jpg';
-import testimonial03 from '@/images/home_1/t3.jpg';
+import testimonial01 from '@/images/home_1/t1.jpeg';
+import testimonial02 from '@/images/home_1/t1.jpeg';
+import testimonial03 from '@/images/home_1/t1.jpeg';
 
 export const TestimonialsOneData = {
     sectionContent: {
@@ -789,7 +789,7 @@ export const FeatureTabData = {
     },
     posts: [
         {
-            title: 'Latest technology',
+            title: 'Locally Harvested Mushrooms',
             content:
                 "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
             image: featureTab01,
@@ -815,7 +815,7 @@ export const FeatureTabData = {
             ],
         },
         {
-            title: 'Awesome Support',
+            title: 'Top Quality',
             content:
                 "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
             image: featureTab02,
@@ -878,13 +878,13 @@ export const ParallaxOneData = {
 
 export const PortfolioHomeData = {
     sectionContent: {
-        title: 'work showcase',
-        subTitle: 'our portfolio',
+        title: 'Types of Mushrooms, We are growing !',
+        subTitle: 'our mushrooms',
         text: 'We are committed to providing our customers with exceptional service while\n offering our employees the best training.',
     },
 };
 
-import video02 from '@/images/home_1/3.jpg';
+import video02 from '@/images/home_1/video1.jpg';
 
 export const VideoTwoData = {
     sectionContent: {
@@ -894,7 +894,7 @@ export const VideoTwoData = {
     },
     video: {
         title: 'Watch Video',
-        ID: 'y2Eqx6ys1hQ',
+        ID: 'Wi6JPoHG-W4',
         image: video02,
     },
 };

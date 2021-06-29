@@ -572,12 +572,14 @@ License URI:
 .singlefolio {
     position: relative;
     overflow: hidden;
+    width: 350px;
     margin: 0 0 30px;
 }
 .singlefolio img {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
     -webkit-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
 }
@@ -1120,7 +1122,7 @@ License URI:
 / 11. Testimonail Section
 ------------------------------------------------------*/
 .testimonial {
-    background: url(../images/bg/3.jpg) no-repeat fixed center / cover;
+    background: url(../images/home_1/t1.jpeg) no-repeat fixed center / cover;
     padding-bottom: 113px;
 }
 .testimonial_content {
@@ -1253,7 +1255,7 @@ License URI:
 / 13. Ready Section
 ------------------------------------------------------*/
 .ready {
-    background: url(../images/bg/4.jpg) no-repeat center center / cover;
+    background: url(../images/home_1/t2.jpg) no-repeat center center / cover;
 }
 .ready .sec_title {
     margin: 0;
@@ -1855,7 +1857,7 @@ License URI:
 .pageBanner {
     position: relative;
     min-height: 465px;
-    background: url(../images/bg/8.jpg) no-repeat center center / cover;
+    background: url(../images/home_1/t3.jpg) no-repeat center center / cover;
     padding-top: 224px;
 }
 .banner_content {

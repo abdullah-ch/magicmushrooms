@@ -1,11 +1,11 @@
 import React from 'react';
 import { makeStyles, Card, Typography, Grid } from '@material-ui/core';
 
-const styles = makeStyles((theme) => ({
+const styles = makeStyles(() => ({
     images: {
-        width: 270,
-        height: 270,
-        objectFit: 'cover',
+        width: '270px !important',
+        height: '270px !important',
+        objectFit: 'cover !important',
         filter: 'grayscale(100%)',
     },
 }));
