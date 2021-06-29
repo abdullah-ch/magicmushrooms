@@ -91,7 +91,7 @@ import sliderOne02 from '@/images/slider/mushroom2.jpg';
 export const SliderOneData = [
     {
         image: sliderOne01,
-        subTitle: 'WELCOME TO Magic Mushrooms',
+        subTitle: 'WELCOME TO Magic',
         title: 'Magic Mushrooms',
         button: {
             label: 'DISCOVER MORE',
@@ -100,7 +100,7 @@ export const SliderOneData = [
     },
     {
         image: sliderOne02,
-        subTitle: 'WELCOME TO Magic Mushrooms',
+        subTitle: 'WELCOME TO Magic',
         title: 'Magic Mushrooms',
         button: {
             label: 'DISCOVER MORE',
@@ -350,19 +350,19 @@ import portfolio06 from '@/images/portfolio/6.jpg';
 export const PortfolioData = [
     {
         title: 'Button Mushroom',
-        categories: [],
+        categories: ['Price : Rs 800/Kg'],
         image: portfolio03,
         url: '/portfolio-details',
     },
     {
         title: 'Oyster Mushroom',
-        categories: [],
+        categories: ['Price : Rs 1000/Kg'],
         image: portfolio02,
         url: '/portfolio-details',
     },
     {
         title: 'Straw Mushroom',
-        categories: [],
+        categories: ['Out of Stock'],
         image: portfolio01,
         url: '/portfolio-details',
     },
@@ -373,14 +373,14 @@ export const PortfolioData = [
         url: '/portfolio-details',
     },
     {
-        title: 'Button Mushroom',
-        categories: [],
+        title: 'Button Mushroom Spawn Bag',
+        categories: ['Price : Rs 600/Bag'],
         image: portfolio05,
         url: '/portfolio-details',
     },
     {
         title: 'Oyster Mushroom',
-        categories: [],
+        categories: ['Price : Rs 800/Bag'],
         image: portfolio06,
         url: '/portfolio-details',
     },
@@ -466,23 +466,23 @@ export const ServicePostTwoData = {
     sectionContent: {
         title: 'We provide High Quality Mushrooms',
         subTitle: 'Services we are offering',
-        text: 'We are committed to providing our customers with exceptional service.',
+        text: 'We are committed to providing our customers with Magic.',
     },
     posts: [
         {
-            title: 'Website Development',
+            title: 'Button Mushrooms',
             iconName: 'mei-web-design',
-            url: '/service-details',
+            url: '/about',
         },
         {
-            title: 'Graphic Designing',
+            title: 'Spawn Bags',
             iconName: 'mei-computer-graphic',
-            url: '/service-details',
+            url: '/about',
         },
         {
-            title: 'Digital Marketing',
+            title: 'Oyster Mushrooms',
             iconName: 'mei-development-1',
-            url: '/service-details',
+            url: '/about',
         },
     ],
 };
@@ -585,13 +585,13 @@ import aboutOne02 from '@/images/about/about2.jpg';
 
 export const AboutOneData = {
     sectionContent: {
-        title: 'build better website alot quicker with meipaly agency',
+        title: 'Get Your Recipes Attached with Fresh Mushrooms',
         subTitle: 'get to know us',
     },
     gallery: [aboutOne01, aboutOne02],
     counter: {
         title: 'Company Started',
-        number: 1990,
+        number: 2021,
     },
 };
 
@@ -601,9 +601,9 @@ import team03 from '@/images/team/rafay.jpg';
 
 export const TeamOneData = {
     sectionContent: {
-        title: 'expert people',
-        subTitle: 'meet the team',
-        text: 'We are committed to providing our customers with exceptional service \n while offering our employees the best training.',
+        title: 'Meet the Magicians',
+        subTitle: '',
+        text: 'We are committed to providing our customers with exceptional service.',
     },
     posts: [
         {
@@ -674,9 +674,9 @@ import video01 from '@/images/home_1/video2.png';
 
 export const VideoOneData = {
     sectionContent: {
-        title: 'Make amazing websites without touching cod',
-        subTitle: 'the only design you need',
-        text: 'Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus aliquet.',
+        title: 'Falling in love is like eating mushrooms, you never know if it is the real thing until it is too late.',
+        subTitle: 'the only magic you need',
+        text: '',
     },
     video: {
         image: video01,
@@ -777,7 +777,7 @@ export const TestimonialsOneData = {
     ],
 };
 
-import featureTab01 from '@/images/home_1/c1.jpg';
+import featureTab01 from '@/images/home_1/t1.jpeg';
 import featureTab02 from '@/images/home_1/c2.jpg';
 import featureTab03 from '@/images/home_1/c3.jpg';
 
@@ -785,84 +785,55 @@ export const FeatureTabData = {
     sectionContent: {
         title: 'why choose us',
         subTitle: 'our benefits',
-        text: 'We are committed to providing our customers with exceptional service while\n offering our employees the best training.',
+        text: 'We are committed to providing our customers with exceptional service.',
     },
     posts: [
         {
             title: 'Locally Harvested Mushrooms',
             content:
-                "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+                "If you're a Restaurant tired of using imported Mushrooms then may be you should try some of our magic mushrooms",
             image: featureTab01,
             lists: [
                 {
-                    item: 'Self-contained, state-of-the-art time clock',
+                    item: 'Every Mushroom yeild will be Fresh',
                 },
                 {
-                    item: 'Scalability of up to 500 employees per time clock',
-                },
-                {
-                    item: 'The ability to connect up to 32 time clocks',
-                },
-                {
-                    item: 'Employee self-enrollment',
-                },
-                {
-                    item: 'Payroll integration',
-                },
-                {
-                    item: 'Built-in backup camera to verify failed punches',
+                    item: 'No Delay in Our Production',
                 },
             ],
         },
         {
-            title: 'Top Quality',
-            content:
-                "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+            title: 'Oyster Mushrooms',
+            content: 'Our Latest Yield of Oyster Mushrooms',
             image: featureTab02,
             lists: [
                 {
-                    item: 'Self-contained, state-of-the-art time clock',
+                    item: 'Full of Savory Flavor',
                 },
                 {
-                    item: 'Scalability of up to 500 employees per time clock',
+                    item: 'Have a slightly chewy texture and are soft with a bittersweet aroma reminiscent of anise.',
                 },
                 {
-                    item: 'The ability to connect up to 32 time clocks',
+                    item: 'When cooked, they have a mild and nutty, seafood-like flavor.',
                 },
                 {
-                    item: 'Employee self-enrollment',
-                },
-                {
-                    item: 'Payroll integration',
-                },
-                {
-                    item: 'Built-in backup camera to verify failed punches',
+                    item: 'Contain an antioxidant called ergothioneine, which can help decrease inflammation in the body',
                 },
             ],
         },
         {
-            title: '1 Click demo install',
-            content:
-                "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+            title: 'Button Mushrooms',
+            content: 'Our Latest Yield of Button Mushrooms',
             image: featureTab03,
             lists: [
                 {
-                    item: 'Self-contained, state-of-the-art time clock',
+                    item: 'Have a mild taste and can be used in just about anything from salads to sauces.',
                 },
                 {
-                    item: 'Scalability of up to 500 employees per time clock',
+                    item: 'The Flavor intensifies when cooked, making them ideal for sautéing and grilling.',
                 },
                 {
-                    item: 'The ability to connect up to 32 time clocks',
-                },
-                {
-                    item: 'Employee self-enrollment',
-                },
-                {
-                    item: 'Payroll integration',
-                },
-                {
-                    item: 'Built-in backup camera to verify failed punches',
+                    item: 'They are inexpensive, readily available and can produce a mushroomy flavor if cooked properly',
                 },
             ],
         },
@@ -873,14 +844,14 @@ export const ParallaxOneData = {
     iconName: 'mei-team',
     title: 'Great things in business are never done by one person.',
     specialText: 'They’re done by a team of people.',
-    text: 'We are committed to providing our customers with exceptional service while \n offering our employees the best training.',
+    text: 'We are committed to providing our customers with exceptional services. ',
 };
 
 export const PortfolioHomeData = {
     sectionContent: {
-        title: 'Types of Mushrooms, We are growing !',
+        title: 'Types of Magic We Are Creating!',
         subTitle: 'our mushrooms',
-        text: 'We are committed to providing our customers with exceptional service while\n offering our employees the best training.',
+        text: 'We are committed to providing our customers with exceptional service',
     },
 };
 
@@ -888,9 +859,9 @@ import video02 from '@/images/home_1/video1.jpg';
 
 export const VideoTwoData = {
     sectionContent: {
-        title: 'Digital Experience',
-        subTitle: 'how do we works',
-        text: 'We are committed to providing our customers with exceptional service while\n offering our employees the best training.',
+        title: 'Oyster Mushroom',
+        subTitle: 'A Glimpse of Oyster Mushrooms',
+        text: 'We are committed to providing our customers with exceptional services.',
     },
     video: {
         title: 'Watch Video',
@@ -904,13 +875,13 @@ import aboutTwo02 from '@/images/home_1/mushroom1.jpg';
 
 export const AboutTwoData = {
     sectionContent: {
-        title: 'We are the Best Website agency in The World',
-        subTitle: 'welcom to smart meipaly web agency',
-        text: "We are committed to providing our customers with exceptional service while offering our employees the best training. Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the 1500s.",
+        title: 'Best Quality Mushrooms at your door step',
+        subTitle: 'Welcome to Magic',
+        text: 'We are committed to provide our customers with Organic Home Grown Fresh Mushrooms. You can harvest your very own mushrooms by buying our Ready-To-Grow Spawn Bags and See the Magic Yourself',
     },
     button: {
         label: 'Learn More',
-        url: '#',
+        url: '/about',
     },
     gallery: [aboutTwo02],
 };

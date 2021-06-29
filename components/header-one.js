@@ -46,7 +46,15 @@ const HeaderOne = () => {
                         <div className='logo'>
                             <Link href='/'>
                                 <a>
-                                    <img src={LogoImage.light} alt='' />
+                                    <img
+                                        width='100px'
+                                        height='auto'
+                                        style={{
+                                            objectFit: 'cover',
+                                        }}
+                                        src={LogoImage.light}
+                                        alt=''
+                                    />
                                 </a>
                             </Link>
                         </div>
