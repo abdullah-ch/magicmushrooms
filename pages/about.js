@@ -14,24 +14,24 @@ import SearchContextProvider from '@/context/search-context';
 import MenuContextProvider from '@/context/menu-context';
 
 const AboutPage = () => {
-    return (
-        <MenuContextProvider>
-            <SearchContextProvider>
-                <Layout PageTitle='About Us Page'>
-                    <HeaderOne />
-                    <PageBanner title='About Us' name='About' />
-                    <AboutOne />
-                    {/* <TestimonialsOneCarousel /> */}
-                    {/* <SubscribeForm /> */}
-                    <TeamCarousel />
-                    <VideoOne />
-                    <FeatureTabOne />
-                    <CallToActionOne extraClassName='ready' />
-                    <Footer />
-                </Layout>
-            </SearchContextProvider>
-        </MenuContextProvider>
-    );
+  return (
+    <MenuContextProvider>
+      <SearchContextProvider>
+        <Layout PageTitle="About Us Page">
+          <HeaderOne />
+          <PageBanner title="About Us" name="About" />
+          <AboutOne />
+          {/* <TestimonialsOneCarousel /> */}
+          {/* <SubscribeForm /> */}
+          <TeamCarousel />
+          <VideoOne />
+          <FeatureTabOne />
+          <CallToActionOne extraClassName="ready" />
+          <Footer />
+        </Layout>
+      </SearchContextProvider>
+    </MenuContextProvider>
+  );
 };
 
 export default AboutPage;
