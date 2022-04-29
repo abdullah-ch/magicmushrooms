@@ -19,29 +19,29 @@ import MenuContextProvider from '@/context/menu-context';
 import SliderOne from '@/components/slider-one';
 
 const HomeOne = () => {
-    return (
-        <MenuContextProvider>
-            <SearchContextProvider>
-                <Layout PageTitle='Home One'>
-                    <HeaderOne />
-                    <SliderOne />
-                    <ServiceTwo />
-                    <AboutTwo />
-                    <VideoTwo />
-                    {/* <SubscribeForm /> */}
-                    <PortfolioHome />
-                    {/* <FunfactOne /> */}
-                    {/* <TrustedClient /> */}
-                    <TeamCarousel />
-                    {/* <ClientCarouselOne /> */}
-                    <ParallaxOne />
-                    {/* <BlogHome /> */}
-                    <CallToActionOne extraClassName='ready' />
-                    <Footer />
-                </Layout>
-            </SearchContextProvider>
-        </MenuContextProvider>
-    );
+  return (
+    <MenuContextProvider>
+      <SearchContextProvider>
+        <Layout PageTitle="Home One">
+          <HeaderOne />
+          <SliderOne />
+          <ServiceTwo />
+          <AboutTwo />
+          <VideoTwo />
+          {/* <SubscribeForm /> */}
+          <PortfolioHome />
+          {/* <FunfactOne /> */}
+          {/* <TrustedClient /> */}
+          {/* <TeamCarousel /> */}
+          {/* <ClientCarouselOne /> */}
+          <ParallaxOne />
+          {/* <BlogHome /> */}
+          <CallToActionOne extraClassName="ready" />
+          <Footer />
+        </Layout>
+      </SearchContextProvider>
+    </MenuContextProvider>
+  );
 };
 
 export default HomeOne;
